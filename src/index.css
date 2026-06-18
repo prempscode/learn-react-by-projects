@@ -1,11 +1,16 @@
 :root {
   --bgc: #101010;
-  --color : white;
-  --ff: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  --color: white;
+  --ff: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
-
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
-  font-family: var(--ff) ;
+  height: 100vh;
+  width: 100vw;
+  font-family: var(--ff);
   background-color: var(--bgc);
   color: var(--color);
 }

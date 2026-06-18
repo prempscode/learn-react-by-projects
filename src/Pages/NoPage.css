@@ -1,0 +1,19 @@
+.nopage-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 2vw;
+    
+}
+
+.h1{
+    margin: 0;
+    padding: 0;
+}
+.h1::selection {
+    background-color: rgba(26, 143, 246, 0.754);
+    color: rgb(255, 255, 255);
+}
