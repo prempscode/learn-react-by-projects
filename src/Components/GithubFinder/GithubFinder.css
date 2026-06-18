@@ -1,0 +1,167 @@
+.github-container {
+  width: 90%;
+  max-width: 850px;
+
+  margin: 0 auto;
+
+  background: var(--card);
+
+  padding: 30px;
+
+  border-radius: 20px;
+
+  box-shadow: 0 10px 30px
+    rgba(0, 0, 0, 0.4);
+
+  text-align: center;
+}
+
+.github-container h1 {
+  margin-bottom: 25px;
+
+  font-size: 2rem;
+}
+
+.search-box {
+  display: flex;
+
+  gap: 10px;
+
+  margin-bottom: 30px;
+}
+
+.search-box input {
+  flex: 1;
+
+  padding: 14px;
+
+  border-radius: 12px;
+
+  border: 1px solid
+    var(--border);
+
+  background: #3a3a3c;
+
+  color: var(--text);
+
+  font-size: 1rem;
+}
+
+.search-box input:focus {
+  outline: none;
+
+  border-color: var(--blue);
+}
+
+.search-box button {
+  padding: 14px 24px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  background: var(--blue);
+
+  color: white;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.search-box button:hover {
+  transform: translateY(-2px);
+}
+
+.profile-card {
+  background: #3a3a3c;
+
+  padding: 30px;
+
+  border-radius: 20px;
+
+  margin-top: 20px;
+}
+
+.profile-card img {
+  width: 140px;
+
+  height: 140px;
+
+  border-radius: 50%;
+
+  object-fit: cover;
+
+  margin-bottom: 20px;
+
+  border: 4px solid
+    var(--blue);
+}
+
+.profile-card h2 {
+  margin-bottom: 8px;
+}
+
+.username {
+  color: var(--secondary);
+
+  margin-bottom: 15px;
+}
+
+.bio {
+  max-width: 600px;
+
+  margin: 0 auto 25px;
+
+  color: var(--secondary);
+
+  line-height: 1.6;
+}
+
+.stats {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 50px;
+
+  margin: 25px 0;
+}
+
+.stats h3 {
+  font-size: 1.8rem;
+}
+
+.stats span {
+  color: var(--secondary);
+
+  font-size: 0.9rem;
+}
+
+.profile-card a {
+  display: inline-block;
+
+  margin-top: 10px;
+
+  padding: 12px 20px;
+
+  background: var(--blue);
+
+  color: white;
+
+  border-radius: 12px;
+
+  text-decoration: none;
+
+  transition: 0.2s;
+}
+
+.profile-card a:hover {
+  transform: translateY(-2px);
+}
+
+.placeholder {
+  color: var(--secondary);
+
+  padding: 30px;
+}

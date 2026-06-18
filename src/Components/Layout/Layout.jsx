@@ -10,11 +10,9 @@ function Layout() {
 
         <nav className="layout-nav">
           <Link to="/">Home</Link>
-
           <Link to="/todo">Todo</Link>
-
           <Link to="/urlshortener">URL Shortener</Link>
-
+          <Link to="/githubfinder">GithubFinder</Link>
           <Link to="/profile" prefetch="intent">
             Profile
           </Link>

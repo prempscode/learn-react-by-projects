@@ -268,7 +268,7 @@ setAlltask(updatedList);`}
       </section>
 
       <section>
-        <h2>Project Concepts Covered</h2>
+        <h2>13. Project Concepts Covered</h2>
 
         <ul>
           <li>JSX</li>
@@ -287,7 +287,7 @@ setAlltask(updatedList);`}
       </section>
 
       <section>
-        <h2>Project Flow</h2>
+        <h2>14. Project Flow</h2>
 
         <pre>
           {`User Types Task
