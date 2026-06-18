@@ -1,0 +1,106 @@
+.urlsh-container {
+  width: 90%;
+  max-width: 800px;
+
+  margin: 0 auto;
+
+  background: var(--card);
+
+  padding: 30px;
+
+  border-radius: 20px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+
+  text-align: center;
+}
+
+.urlsh-container h1 {
+  font-size: 2rem;
+
+  margin-bottom: 25px;
+
+  color: var(--text);
+}
+
+.urlsh-container input {
+  width: 100%;
+
+  padding: 14px;
+
+  border: 1px solid var(--border);
+  border-radius: 12px;
+
+  background: #3a3a3c;
+  color: var(--text);
+
+  font-size: 1rem;
+
+  margin-bottom: 20px;
+}
+
+.urlsh-container input:focus {
+  outline: none;
+
+  border-color: var(--blue);
+
+  box-shadow: 0 0 0 2px rgba(0, 113, 227, 0.2);
+}
+
+.urlsh-container button {
+  padding: 12px 24px;
+
+  border: none;
+  border-radius: 12px;
+
+  background: var(--blue);
+  color: white;
+
+  font-size: 1rem;
+  font-weight: 500;
+
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+.urlsh-container button:hover {
+  transform: translateY(-2px);
+
+  opacity: 0.95;
+}
+
+.urlsh-container button:active {
+  transform: translateY(0);
+}
+
+.result-container {
+  margin-top: 30px;
+
+  padding: 20px;
+
+  background: #3a3a3c;
+
+  border-radius: 14px;
+}
+
+.result-container p {
+  margin-bottom: 10px;
+
+  color: var(--secondary);
+}
+
+.result-container a {
+  color: var(--blue);
+    padding: 7px;
+    border-radius: 10px;
+    transition: all 0.2s;
+  font-weight: 500;
+
+  word-break: break-all;
+}
+
+.result-container a:hover {
+  text-decoration: underline;
+  background-color: azure;
+}
