@@ -1,0 +1,20 @@
+:root {
+  --bgc: #101010;
+  --color: white;
+  --ff: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.active {
+  background-color: #383737;
+  border-radius: 10px;
+}
+.nav{
+    padding: 10px;
+    margin: 10px;
+}
+a {
+  transition: all 0.3s;
+  margin: 10px;
+  padding: 10px;
+  color: var(--color);
+  text-decoration: none;
+}
