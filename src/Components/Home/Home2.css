@@ -1,0 +1,164 @@
+.home-page {
+  max-width: 1400px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 40px 20px;
+}
+
+.component-card {
+  background: var(--card);
+
+  border: 1px solid var(--border);
+
+  border-radius: 20px;
+
+  padding: 25px;
+
+  width: 100%;
+  max-width: 450px;
+
+  transition: 0.3s;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.component-card:hover {
+  transform: translateY(-5px);
+
+  border-color: var(--blue);
+}
+
+.component-card h2 {
+  color: var(--blue);
+
+  margin-bottom: 15px;
+}
+
+.component-card pre {
+  white-space: pre-wrap;
+
+  line-height: 1.7;
+
+  color: var(--text);
+
+  font-size: 0.95rem;
+}
+
+.vertical-line {
+  width: 3px;
+
+  height: 60px;
+
+  background: var(--blue);
+}
+
+.branch-line {
+  width: 70%;
+
+  height: 3px;
+
+  background: var(--blue);
+
+  margin-bottom: 30px;
+}
+
+.info-grid {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  gap: 30px;
+
+  margin-bottom: 40px;
+}
+
+.projects-section {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 20px;
+}
+
+.project-connector {
+  width: 60%;
+
+  height: 3px;
+
+  background: var(--blue);
+
+  margin: 40px 0;
+}
+
+.project-nodes {
+  width: 100%;
+
+  display: flex;
+
+  justify-content: center;
+
+  gap: 30px;
+
+  flex-wrap: wrap;
+}
+
+.project-node {
+  width: 220px;
+
+  text-align: center;
+
+  padding: 25px;
+
+  border-radius: 16px;
+
+  background: var(--card);
+
+  border: 1px solid var(--border);
+
+  color: var(--text);
+
+  font-weight: 600;
+
+  text-decoration: none;
+
+  transition: 0.3s;
+}
+
+.project-node:hover {
+  background: var(--blue);
+
+  transform: scale(1.05);
+}
+
+.app-card {
+  max-width: 650px;
+}
+
+.profile-card-home {
+  max-width: 600px;
+}
+
+.thankyou {
+  max-width: 650px;
+
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .branch-line,
+  .project-connector {
+    width: 90%;
+  }
+
+  .project-node {
+    width: 100%;
+  }
+}
