@@ -77,7 +77,6 @@ src/
 ## Author
 
 **Prem Pravash Sahu**  
-BCA — Institute of Technical Education and Research  
-CGPA — 9.77 / 10
+BCA — Institute of Technical Education and Research 
 
 > Every line in this project was written while learning React for the very first time.
