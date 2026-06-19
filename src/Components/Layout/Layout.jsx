@@ -1,10 +1,12 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet , ScrollRestoration} from "react-router-dom";
 import "./Layout.css";
 
 function Layout() {
   return (
     <div className="layout">
+      <ScrollRestoration />
+
       <header className="layout-header">
         <h1>Learn React</h1>
 
@@ -31,9 +33,10 @@ function Layout() {
           <div className="layout-footer__icon">
             <i className="ti ti-brand-react" aria-hidden="true"></i>
           </div>
-          <span>Learn React 19</span>
         </div>
-        <p>© 2026 by Prem</p>
+        <p>
+          <span>Created with</span> &hearts; by Prem
+        </p>
       </footer>
     </div>
   );
