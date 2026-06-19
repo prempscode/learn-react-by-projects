@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, Outlet , ScrollRestoration} from "react-router-dom";
+import { Link, Outlet, ScrollRestoration } from "react-router-dom";
 import "./Layout.css";
 
 function Layout() {
