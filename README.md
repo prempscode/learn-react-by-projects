@@ -1,18 +1,82 @@
-# React + Vite
+# react-journey
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+learn-react-by-project
 
-Currently, two official plugins are available:
+A multi-page React app built while learning React 19 from scratch — one project at a time. Each route is a standalone mini-project that introduced new concepts, starting from basic `useState` all the way to API calls, async/await, and React Router.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Live Projects
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+| Project | Route | Concepts Covered |
+|---|---|---|
+| Home | `/` | React Router, child routes, SVG connectors |
+| Todo App | `/todo` | useState, map(), filter(), controlled inputs |
+| URL Shortener | `/urlshortener` | fetch(), async/await, Promises, try/catch |
+| GitHub Finder | `/githubfinder` | Object state, dynamic APIs, response.json() |
+| My Profile | `/profile` | useLoaderData, loader functions, GitHub API |
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React 19**
+- **React Router v7**
+- **Vite**
+- **Vanilla CSS**
+- **TinyURL API**
+- **GitHub REST API**
+
+---
+
+## What I Learned
+
+### From the Todo App
+`useState` · `map()` · `filter()` · controlled inputs · event handling · conditional rendering · ternary operator · arrays of objects · React Router · Layout & Outlet
+
+### From the URL Shortener
+`fetch()` · `async/await` · Promises · `try/catch` · template literals · `encodeURIComponent()` · loading states · API response handling · external links
+
+### From the GitHub Finder
+Object state · dynamic API URLs · `response.json()` · `Object.keys()` · rendering external images · React re-render cycle
+
+### From the Profile Page
+`useLoaderData` · loader functions · data fetching before render · GitHub API
+
+---
+
+## Getting Started
+
+```bash
+git clone https://github.com/prempscode/react-journey.git
+cd react-journey
+npm install
+npm run dev
+```
+
+---
+
+## Project Structure
+
+```
+src/
+├── App.jsx                  # Router config with all routes
+├── Components/
+│   ├── Home/                # Landing page with bio + route cards
+│   ├── Layout/              # Shared navbar + footer
+│   ├── Todo/                # Todo app + learn notes
+│   ├── Url/                 # URL shortener + learn notes
+│   ├── GithubFinder/        # GitHub finder + learn notes
+│   └── Profile/             # GitHub profile with loader
+└── Pages/
+    └── NoPage/              # 404 page
+```
+
+---
+
+## Author
+
+**Prem Pravash Sahu**  
+BCA — Institute of Technical Education and Research 
+
+> Every line in this project was written while learning React for the very first time.
