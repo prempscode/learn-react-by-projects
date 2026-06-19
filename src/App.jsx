@@ -11,7 +11,7 @@ import {
   Link,
   Outlet,
 } from "react-router-dom";
-
+import NoPage from "./Pages/NoPage/NoPage";
 async function githubProfileLoader() {
   const res = await fetch("https://api.github.com/users/prempscode");
   if (!res.ok) throw new Error("Failed to fetch GitHub profile");
@@ -28,6 +28,7 @@ const router = createBrowserRouter([
       { path: "Todo", element: <Todo /> },
       { path: "githubfinder", element: <GithubFinder /> },
       { path: "profile", element: <Profile />, loader: githubProfileLoader },
+      { path: "*", element: <NoPage /> },
     ],
   },
 ]);
