@@ -1,5 +1,7 @@
 # react-journey
 
+learn-react-by-project
+
 A multi-page React app built while learning React 19 from scratch — one project at a time. Each route is a standalone mini-project that introduced new concepts, starting from basic `useState` all the way to API calls, async/await, and React Router.
 
 ---
